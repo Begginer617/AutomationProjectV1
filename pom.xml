@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>test-ui-museng</artifactId>
+=======
+    <artifactId>Exercises_Java</artifactId>
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -37,12 +41,15 @@
             <version>${selenium.version}</version>
         </dependency>
         <dependency>
+<<<<<<< HEAD
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.8.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
+=======
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber-java.version}</version>
@@ -51,7 +58,11 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber-junit.version}</version>
+<<<<<<< HEAD
             <scope>compile</scope>
+=======
+            <scope>test</scope>
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
@@ -63,7 +74,10 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
+<<<<<<< HEAD
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+=======
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -78,8 +92,51 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+<<<<<<< HEAD
         </dependency>
     </dependencies>
+=======
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.7.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.11.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
     <build>
         <plugins>
             <plugin>
@@ -92,4 +149,8 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df

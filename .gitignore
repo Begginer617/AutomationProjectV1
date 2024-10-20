@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 # Maven and build directories
 target/
 !.mvn/wrapper/maven-wrapper.jar
+=======
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -27,11 +34,17 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
+<<<<<<< HEAD
+=======
+!**/src/main/**/build/
+!**/src/test/**/build/
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
 
 ### VS Code ###
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 
 # Ignore personal or system configuration files
@@ -192,3 +205,6 @@ build/
 ../../../../postgresql_14.exe
 ../../../../postgresql_15.exe
 ../../../../postgresql_16.exe
+=======
+.DS_Store
+>>>>>>> c908de3cfe75c228e508b3452614b3456379e9df
