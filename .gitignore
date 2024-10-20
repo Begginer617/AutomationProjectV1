@@ -1,0 +1,194 @@
+# Maven and build directories
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Ignore personal or system configuration files
+/.bash_profile
+/.git-for-windows-updater
+/.gitconfig
+/.lesshst
+/.jdks/
+/.m2/
+/.ssh/
+/.vscode/
+
+# Ignore common directories and user data
+/3D Objects/
+/AppData/
+/Contacts/
+/Desktop/
+/Downloads/
+/Favorites/
+/IntelGraphicsProfiles/
+/Links/
+/MicrosoftEdgeBackups/
+/Music/
+/OneDrive/
+/Pictures/
+/Saved Games/
+/Searches/
+/Videos/
+
+# Ignore specific project directories
+/APKI DO MUZY/
+/Allure/
+/Automatyzacja_Wstep/
+/Biblioteki do projektu/
+/Chromedriver/
+/Projekt_Automatyzacji/
+/Projekty Intelij z webinariow testuj.pl/
+/Selenium_Automatyzacja/
+/Selenium_Automayzacja/
+/StaticClassesAndMethods/
+/Webinaria Testuj.pl/
+/projektKalkulator/
+/Bootcamp automatyzacji/
+/CV/
+/Garmin/
+/GitHub/
+/Hiszpanski/
+/JavaReview-master/
+/Kierownik Testow ISTQB - Certyfikacja/
+/Moja Muza/
+/Moje dokumenty programu PaperPort/
+/My Games/
+/RATY/
+/Sciaga SQL/
+/Softserve umowa/
+/Tester Valley/
+/Zdjecie businesowe/
+/phpMyAdmin-5.2.1-all-languages/
+/umowa rezerwacyjna z deweloperem RFG Spolka Akcyjna/
+
+# Ignore Windows system and configuration files
+/desktop.ini
+/NTUSER.DAT*
+/ntuser.dat.LOG1
+/ntuser.dat.LOG2
+/ntuser.ini
+
+# Ignore PostgreSQL executables and installers
+*.exe
+*.msi
+
+# Ignore npm and related files
+/npm
+
+# Ignore executables
+*.exe
+
+# Additional ignored files and folders
+../../../../.bash_profile
+../../../../.cache/
+../../../../.git-for-windows-updater
+../../../../.gitconfig
+../../../../.jdks/
+../../../../.lesshst
+../../../../.m2/
+../../../../.ssh/
+../../../../.vscode/
+../../../../3D Objects/
+../../../../AppData/
+../../../../Contacts/
+../../../../Desktop/
+../../../APKI DO MUZY/
+../../Allure/
+../../Automatyzacja_Wstep/
+../../Biblioteki do projektu/
+../../Chromedriver/
+../../Projekt_Automatyzacji/
+../../Projekty Intelij z webinariow testuj.pl/
+../../Selenium_Automatyzacja/
+../../Selenium_Automayzacja/
+../../StaticClassesAndMethods/
+../../Webinaria Testuj.pl/
+../../projektKalkulator/
+../../../Bootcamp automatyzacji/
+../../../CV/
+../../../Garmin/
+../../../GitHub/
+../../../Hiszpanski/
+../../../JavaReview-master/
+../../../Kierownik Testow ISTQB - Certyfikacja/
+../../../Moja Muza/
+../../../Moje dokumenty programu PaperPort/
+../../../My Games/
+../../../RATY/
+../../../Sciaga SQL/
+../../../Softserve umowa/
+../../../Tester Valley/
+../../../Zdjecie businesowe/
+../../../desktop.ini
+../../../phpMyAdmin-5.2.1-all-languages/
+../../../umowa rezerwacyjna z deweloperem RFG Spolka Akcyjna/
+../../../../Downloads/
+../../../../Favorites/
+../../../../IntelGraphicsProfiles/
+../../../../Links/
+../../../../MicrosoftEdgeBackups/
+../../../../Music/
+../../../../NTUSER.DAT
+../../../../NTUSER.DAT{1d650093-90e2-11eb-875a-e4b318c6e9b7}.TM.blf
+../../../../NTUSER.DAT{1d650093-90e2-11eb-875a-e4b318c6e9b7}.TMContainer00000000000000000001.regtrans-ms
+../../../../NTUSER.DAT{1d650093-90e2-11eb-875a-e4b318c6e9b7}.TMContainer00000000000000000002.regtrans-ms
+../../../../NTUSER.DAT{eba74430-8a92-11ec-878a-e4b318c6e9b7}.TM.blf
+../../../../NTUSER.DAT{eba74430-8a92-11ec-878a-e4b318c6e9b7}.TMContainer00000000000000000001.regtrans-ms
+../../../../NTUSER.DAT{eba74430-8a92-11ec-878a-e4b318c6e9b7}.TMContainer00000000000000000002.regtrans-ms
+../../../../OneDrive/
+../../../../PaceKeyChain
+../../../../Pictures/
+../../../../PycharmProjects/
+../../../../Saved Games/
+../../../../Searches/
+../../../../Videos/
+../../../../edb_languagepack_4.exe
+../../../../edb_npgsql.exe
+../../../../edb_pgagent_pg16.exe
+../../../../edb_pgbouncer.exe
+../../../../edb_pgjdbc.exe
+../../../../edb_psqlodbc.exe
+../../../../edb_psqlodbc.exe-20240923222949
+../../../../npm
+../../../../ntuser.dat.LOG1
+../../../../ntuser.dat.LOG2
+../../../../ntuser.ini
+../../../../pemhttpd.exe
+../../../../pemhttpd.exe-20240923222953
+../../../../postgis_3_4_pg16.exe
+../../../../postgresql_12.exe
+../../../../postgresql_13.exe
+../../../../postgresql_14.exe
+../../../../postgresql_15.exe
+../../../../postgresql_16.exe
